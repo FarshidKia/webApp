@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace webApp.DataEntities
 {
     [Table("Author")]
-    class Author
+        public class Author
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }

@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace webApp.DataEntities
 {
     [Table("Article")]
-    class Article
+    public class Article
     {
-        [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required, StringLength(50)]
         public string Author{ get; set; }
@@ -24,7 +24,7 @@ namespace webApp.DataEntities
         public string Title { get; set; }
         [Required, StringLength(50)]
         public string ImageUrl{ get; set; }
-        [Required]
+        [Required,StringLength(250)]
         public string AuthorAbout { get; set; }
     }
 }
