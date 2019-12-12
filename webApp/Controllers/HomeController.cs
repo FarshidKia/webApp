@@ -12,7 +12,7 @@ namespace webApp.Controllers
         // GET: Home
         public ActionResult Index()
         {
-          test abc = new test();
+          //test abc = new test();
             return View();
         }
     }
