@@ -1,1 +1,1 @@
-# webApp <!-- Generic Repository Tasarım Desenli webApp uygulamasi --!>
+# webApp <!-- Generic Repository Tasarım / webApp uygulamasi --!>
